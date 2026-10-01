@@ -54,13 +54,21 @@
 
 ---
 
-## Slide 5: Performance Benchmarks & Tech Stack
-* **Title:** Production Benchmarks, Tech Stack & Impact
-* **Key Impact Metrics:**
-  * **Resolution Time:** **< 15 ms** (vs 4+ hours for human engineering teams).
-  * **Availability:** **99.999%** continuous uptime for UPI rails.
-  * **Zero Server Restarts:** 100% runtime memory hot-swapping.
-* **Technology Stack:** Python 3.13, FastAPI, Microsoft Z3 SMT Solver, Pydantic v2, Docker, SHA-256 Blockchain.
+## Slide 5: Performance Benchmarks & Comprehensive Tech Stack
+* **Title:** Production Benchmarks & Comprehensive Technology Stack
+* **Performance Impact Metrics:**
+  * ⚡ **Resolution Time:** **< 15 ms** (vs 4+ hours for human engineering teams).
+  * ⚡ **Availability:** **99.999%** continuous uptime for UPI / OCEN payment rails.
+  * ⚡ **Zero Server Restarts:** 100% in-memory runtime hot-swapping.
+* **Detailed Technology Stack (Layer-by-Layer):**
+  * **Core Runtime & Concurrency:** Python 3.13 (AsyncIO event loops, asynchronous task scheduling, GIL optimization).
+  * **API Gateway & Ingress:** FastAPI 0.110+, Uvicorn ASGI Server, Starlette Middleware (dynamic request interception & live payload rewriting).
+  * **Formal Verification Engine:** Microsoft Z3 SMT Solver (`z3-solver` v4.13+) — First-order logic theorem prover ensuring strict mathematical monetary conservation ($\forall x > 0 \implies T(x) = x$).
+  * **AST Static Security Sandbox:** Python `ast` (Abstract Syntax Tree module) — Pre-compilation bytecode safety gate, blocking `eval`, `exec`, dynamic imports, and network exfiltration.
+  * **Data Modeling & Validation:** Pydantic v2 (Rust-accelerated validation core for sub-millisecond canonical UPI schema enforcement).
+  * **Cryptographic Audit Trail:** SHA-256 Blockchain Ledger (`hashlib`) — Tamper-evident, chained append-only audit trail for NPCI & RBI regulatory compliance.
+  * **Cloud & DevOps:** Docker containerization, Render Cloud PaaS (Automated Git-push continuous deployment, health-checks).
 * **Team:** **Solo Rusher** (Atharva Chakrawar, Krishna Ankushkar, Nitin Chavan)
 * **Live Cloud Platform:** [https://dpi-heal.onrender.com/](https://dpi-heal.onrender.com/)
 * **GitHub Repository:** [https://github.com/atharvchakrawar/dpi-heal](https://github.com/atharvchakrawar/dpi-heal)
+

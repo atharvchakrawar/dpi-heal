@@ -318,12 +318,24 @@ app = FastAPI(
 )
 
 
-@app.get("/", response_class=HTMLResponse, tags=["Web Pages"])
-def page_cover():
+@app.get("/", tags=["Web Pages"])
+def page_cover(request: Request):
     """
-    Renders the Executive Front Cover landing page.
+    Renders the Executive Front Cover landing page, or JSON if specifically requested.
     """
+    accept = request.headers.get("accept", "")
+    if "application/json" in accept and "text/html" not in accept:
+        return JSONResponse(content={"status": "HEALTHY", "message": "DPI-Heal Autonomous Swarm Gateway Active", "version": settings.GATEWAY_VERSION})
     return HTMLResponse(content=PAGE_COVER)
+
+
+@app.post("/", tags=["System"])
+def root_post():
+    """
+    Root POST endpoint for interactive platform testing and health verification.
+    """
+    return {"status": "HEALTHY", "message": "DPI-Heal Autonomous Swarm Gateway Active", "version": settings.GATEWAY_VERSION}
+
 
 
 @app.get("/simulator", response_class=HTMLResponse, tags=["Web Pages"])

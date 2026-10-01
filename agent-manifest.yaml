@@ -1,0 +1,44 @@
+apiVersion: aikart/v1alpha1
+kind: AgentManifest
+metadata:
+  name: dpi-heal-swarm
+  displayName: "Project DPI-Heal: Autonomous UPI Middleware Swarm"
+  version: "1.0.0"
+  description: "Autonomous self-healing middleware swarm for Digital Public Infrastructure (UPI rails) that detects breaking upstream schema drifts in real-time, synthesizes pure Python translation adapters, formally verifies monetary conservation with Microsoft Z3 SMT solver (forall x > 0), and mounts zero-downtime hot-patches."
+  category: "Fintech / Digital Public Infrastructure / Middleware"
+  author: "BharatAgentic Participant"
+
+spec:
+  runtime:
+    type: "container"
+    port: 8000
+    healthCheckPath: "/health"
+    environment:
+      PYTHONUNBUFFERED: "1"
+      GATEWAY_HOST: "0.0.0.0"
+      GATEWAY_PORT: "8000"
+
+  endpoints:
+    ingressPayment:
+      path: "/api/v1/upi/pay"
+      method: "POST"
+      description: "UPI Payment Ingress with dynamic runtime hot-patch routing"
+    metricsTelemetry:
+      path: "/api/v1/metrics"
+      method: "GET"
+      description: "Real-time telemetry, error velocity bursts, and active hot-patch adapters"
+    formalVerifierAudit:
+      path: "/api/v1/ledger"
+      method: "GET"
+      description: "SHA-256 tamper-proof append-only blockchain audit ledger"
+    missionControlUI:
+      path: "/simulator"
+      method: "GET"
+      description: "Web GUI Mission Control with real-time ingress stream and manual fault injector"
+
+  capabilities:
+    - "Real-Time Telemetry & Error Velocity Anomaly Detection (Scout Agent)"
+    - "Multi-Provider LLM & Deterministic AST Adapter Synthesis (Synthesizer Agent)"
+    - "Mathematical Formal Verification with Z3 SMT Solver (forall x > 0 monetary conservation)"
+    - "Zero-Downtime Live Dynamic Hot-Patching (<15ms latency)"
+    - "Tamper-Proof Cryptographic SHA-256 Blockchain Audit Trail"

@@ -23,7 +23,7 @@
 | **Uptime Guarantee** | **99.999% High Availability** with zero-downtime in-memory hot-swapping |
 | **Auditability** | Tamper-proof **SHA-256 chained append-only blockchain ledger** |
 | **GitHub Repository** | [https://github.com/atharvchakrawar/dpi-heal](https://github.com/atharvchakrawar/dpi-heal) |
-| **Live Working Demo** | [https://dpi-heal-swarm.loca.lt](https://dpi-heal-swarm.loca.lt) (Local: `http://127.0.0.1:8000/`) |
+| **Live Working Demo** | [https://dpi-heal.onrender.com/](https://dpi-heal.onrender.com/) *(Hosted 24/7 on Render Cloud)* |
 | **5-Slide Pitch Deck** | [View PITCH_DECK.md](PITCH_DECK.md) |
 
 ---
@@ -122,15 +122,15 @@ flowchart TD
 
 ---
 
-## 🌐 Live Working Demo & Endpoints
+## 🌐 Live Working Demo & Cloud Endpoints (24/7 on Render)
 
-* **Executive Front Cover**: [http://127.0.0.1:8000/](http://127.0.0.1:8000/) *(Main Entrance)*
-* **Mission Control & Live Swarm Simulator**: [http://127.0.0.1:8000/simulator](http://127.0.0.1:8000/simulator)
-* **Architecture Blueprint**: [http://127.0.0.1:8000/architecture](http://127.0.0.1:8000/architecture)
-* **Z3 Formal Verifier Gate**: [http://127.0.0.1:8000/verifier](http://127.0.0.1:8000/verifier)
-* **Cryptographic Blockchain Ledger**: [http://127.0.0.1:8000/ledger-explorer](http://127.0.0.1:8000/ledger-explorer)
-* **Interactive OpenAPI Swagger Docs**: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
-* **Public Tunnel Endpoint**: [https://dpi-heal-swarm.loca.lt](https://dpi-heal-swarm.loca.lt)
+* 🚀 **Executive Front Cover (Main Entrance)**: [https://dpi-heal.onrender.com/](https://dpi-heal.onrender.com/)
+* 🎮 **Mission Control & Live Swarm Simulator**: [https://dpi-heal.onrender.com/simulator](https://dpi-heal.onrender.com/simulator)
+* 🏛️ **System Architecture Blueprint**: [https://dpi-heal.onrender.com/architecture](https://dpi-heal.onrender.com/architecture)
+* 🔬 **Z3 Formal Verifier Gate**: [https://dpi-heal.onrender.com/verifier](https://dpi-heal.onrender.com/verifier)
+* 🔗 **Cryptographic Blockchain Ledger**: [https://dpi-heal.onrender.com/ledger-explorer](https://dpi-heal.onrender.com/ledger-explorer)
+* 📑 **Interactive OpenAPI Swagger Docs**: [https://dpi-heal.onrender.com/docs](https://dpi-heal.onrender.com/docs)
+* 🩺 **Gateway Health Check API**: [https://dpi-heal.onrender.com/health](https://dpi-heal.onrender.com/health)
 
 ---
 

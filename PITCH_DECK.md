@@ -54,4 +54,4 @@
   * **Zero Server Restarts:** 100% runtime memory hot-swapping.
 * **Technology Stack:** Python 3.13, FastAPI, Microsoft Z3 SMT Solver, Pydantic v2, Docker, SHA-256 Blockchain.
 * **GitHub Repository:** [https://github.com/atharvchakrawar/dpi-heal](https://github.com/atharvchakrawar/dpi-heal)
-* **Live Demo:** [https://dpi-heal-swarm.loca.lt](https://dpi-heal-swarm.loca.lt) | Local: `http://127.0.0.1:8000/`
+* **Live Demo:** [https://dpi-heal.onrender.com/](https://dpi-heal.onrender.com/) *(24/7 Cloud Hosted on Render)*

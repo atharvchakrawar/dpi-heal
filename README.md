@@ -204,10 +204,16 @@ pytest -v
 
 ---
 
-## 👥 Author & Hackathon Submission
+## 👥 Team & Hackathon Submission
 
-* **Author:** Atharv Chakrawar  
-* **Role:** Autonomous Agent Builder & FinTech Enthusiast (2nd Year CS Engineering)  
+* **Team Name:** **Solo Rusher**  
+* **Team Members:**
+  * **Atharva Chakrawar**
+  * **Krishna Ankushkar**
+  * **Nitin Chavan**
 * **Event:** BharatAgentic Hackathon (aiKart)  
-* **Repository:** [https://github.com/atharvchakrawar/dpi-heal](https://github.com/atharvchakrawar/dpi-heal)  
+* **Live Deployment:** [https://dpi-heal.onrender.com/](https://dpi-heal.onrender.com/)  
+* **GitHub Repository:** [https://github.com/atharvchakrawar/dpi-heal](https://github.com/atharvchakrawar/dpi-heal)  
+* **5-Slide Pitch Deck:** [PITCH_DECK.md](PITCH_DECK.md)  
 * **License:** MIT License  
+

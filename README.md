@@ -24,7 +24,6 @@
 | **Auditability** | Tamper-proof **SHA-256 chained append-only blockchain ledger** |
 | **GitHub Repository** | [https://github.com/atharvchakrawar/dpi-heal](https://github.com/atharvchakrawar/dpi-heal) |
 | **Live Working Demo** | [https://dpi-heal.onrender.com/](https://dpi-heal.onrender.com/) *(Hosted 24/7 on Render Cloud)* |
-| **5-Slide Pitch Deck** | 5-Slide Executive Deck (Prepared for Submission) |
 
 ---
 
@@ -132,15 +131,6 @@ flowchart TD
 * 📑 **Interactive OpenAPI Swagger Docs**: [https://dpi-heal.onrender.com/docs](https://dpi-heal.onrender.com/docs)
 * 🩺 **Gateway Health Check API**: [https://dpi-heal.onrender.com/health](https://dpi-heal.onrender.com/health)
 
----
-
-## 📊 5-Slide Pitch Deck Structure
-
-* **Slide 1**: Title & Cover (DPI-Heal for India's Digital Public Infrastructure — Team Solo Rusher)
-* **Slide 2**: The Trillion-Dollar Problem (Upstream Bank Schema Drifts & HTTP 422 drops)
-* **Slide 3**: The Solution (Autonomous 4-Tier Swarm with <15ms Hot-Patching)
-* **Slide 4**: Core Innovation (Microsoft Z3 SMT Solver & SHA-256 Blockchain Ledger)
-* **Slide 5**: Performance Benchmarks & Comprehensive Tech Stack (99.999% Uptime, Sub-15ms Recovery)
 
 ---
 
